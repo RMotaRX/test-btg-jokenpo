@@ -1,0 +1,325 @@
+{
+	"id": "1093486f-d726-e3e6-510e-a272c0542bee",
+	"name": "btg-jokenpo",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "drop-game",
+			"description": "",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"order": [
+				"f28c6165-8549-d9c8-0ec9-10d2c6218565"
+			],
+			"owner": "3046155",
+			"folders_order": [],
+			"id": "497073ab-d7ce-ebaa-4801-3a08479f4fb4"
+		},
+		{
+			"name": "move",
+			"description": "",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"order": [
+				"eb935988-eeb8-0f37-7bca-92c473f15699",
+				"c9192d12-7ea4-4aa7-e495-f07ff59e5650",
+				"535dc954-66a8-5078-8843-a258c6609821",
+				"cd631677-50d3-788e-99bc-9557ae6a52e7"
+			],
+			"owner": "3046155",
+			"folders_order": [],
+			"id": "673750f8-5999-e665-de23-192ab79814b4"
+		},
+		{
+			"name": "player",
+			"description": "",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"order": [
+				"d182d715-5425-4853-5696-5543e643eb81",
+				"126112f6-5184-45b3-3196-bd52740e06b1",
+				"f97df1e1-b6cf-826b-3917-c0ad62cd2a24"
+			],
+			"owner": "3046155",
+			"folders_order": [],
+			"id": "74540713-ccf8-4bc7-c989-1fb4ed64ea3c"
+		}
+	],
+	"folders_order": [
+		"74540713-ccf8-4bc7-c989-1fb4ed64ea3c",
+		"673750f8-5999-e665-de23-192ab79814b4",
+		"497073ab-d7ce-ebaa-4801-3a08479f4fb4"
+	],
+	"timestamp": 1592601086011,
+	"owner": "3046155",
+	"public": false,
+	"requests": [
+		{
+			"id": "126112f6-5184-45b3-3196-bd52740e06b1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url_local}}/btg/jokenpo/player",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"data": [],
+			"dataMode": "raw",
+			"name": "get-player",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1592609422059,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "74540713-ccf8-4bc7-c989-1fb4ed64ea3c",
+			"rawModeData": "{\n\t\"playerName\": \"Rafael Mota\"\n}"
+		},
+		{
+			"id": "535dc954-66a8-5078-8843-a258c6609821",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url_local}}/btg/jokenpo/move",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"data": [],
+			"dataMode": "raw",
+			"name": "get-move",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1592609803817,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "673750f8-5999-e665-de23-192ab79814b4",
+			"rawModeData": ""
+		},
+		{
+			"id": "c9192d12-7ea4-4aa7-e495-f07ff59e5650",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url_local}}/btg/jokenpo/move?playerName=Rafael Mota",
+			"queryParams": [
+				{
+					"key": "playerName",
+					"value": "Rafael Mota",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"data": [],
+			"dataMode": "raw",
+			"name": "delete-move",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1592609772241,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "673750f8-5999-e665-de23-192ab79814b4",
+			"rawModeData": ""
+		},
+		{
+			"id": "cd631677-50d3-788e-99bc-9557ae6a52e7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url_local}}/btg/jokenpo/play",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"data": [],
+			"dataMode": "raw",
+			"name": "list-move",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1592610902336,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "673750f8-5999-e665-de23-192ab79814b4",
+			"rawModeData": ""
+		},
+		{
+			"id": "d182d715-5425-4853-5696-5543e643eb81",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url_local}}/btg/jokenpo/player",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1592601557037,
+			"name": "create-player",
+			"description": "",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"responses": [],
+			"rawModeData": "{\n\t\"playerName\": \"Rafael Mota\"\n}"
+		},
+		{
+			"id": "eb935988-eeb8-0f37-7bca-92c473f15699",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url_local}}/btg/jokenpo/move",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"data": [],
+			"dataMode": "raw",
+			"name": "execute-move",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1592609689364,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "673750f8-5999-e665-de23-192ab79814b4",
+			"rawModeData": "{\n  \"playerName\": \"Rafael Mota\",\n  \"movement\": \"STONE\"\n}"
+		},
+		{
+			"id": "f28c6165-8549-d9c8-0ec9-10d2c6218565",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url_local}}/btg/jokenpo/play",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"data": [],
+			"dataMode": "raw",
+			"name": "drop-game",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1592611022637,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "497073ab-d7ce-ebaa-4801-3a08479f4fb4",
+			"rawModeData": ""
+		},
+		{
+			"id": "f97df1e1-b6cf-826b-3917-c0ad62cd2a24",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{base_url_local}}/btg/jokenpo/player?playerName=Rafael Mota",
+			"queryParams": [
+				{
+					"key": "playerName",
+					"value": "Rafael Mota",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "1093486f-d726-e3e6-510e-a272c0542bee",
+			"data": [],
+			"dataMode": "raw",
+			"name": "delete-player",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1592609475243,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "74540713-ccf8-4bc7-c989-1fb4ed64ea3c",
+			"rawModeData": "{\n\t\"playerName\": \"Rafael Mota\"\n}"
+		}
+	]
+}
